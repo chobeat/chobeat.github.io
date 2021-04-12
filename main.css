@@ -10,14 +10,14 @@ body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 
 body header a#logo img { width:100%}
 body main img.capsule { width: 150px}
 body main img.medium {max-width: 300px;}
-body main > * { max-width: 600px; margin-bottom: 20px }
+body main > * { max-width: 650px; margin-bottom: 20px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px}
-body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize}
+body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; font-weight: bold;}
 body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 body main > img { width:100%; max-width: 300px }
-body main > ul { font-family: monospace; font-size:12px; line-height: 20px }
-body main > ul li {}
-body main > ul li a { text-transform: capitalize; text-decoration: underline}
+body main > ul { font-family: sans-serif; line-height: 20px }
+body main > ul li {margin-bottom: 15px;}
+body main > ul li a { text-transform: capitalize;}
 body main > ul li b { font-weight: bold }
 body main > ul li:hover a { text-decoration: none}
 body main > p { line-height: 28px; font-size:18px}
@@ -26,8 +26,8 @@ body main > p b { font-weight: bold }
 body main > p i { line-height: 28px; font-size:18px; font-style: italic}
 body main > q { font-size: 20px; max-width: 500px; display: block; margin-left:30px; }
 body main > q a { text-decoration: underline }
-body main > pre { font-family: monospace; background: black; color:white; padding:15px; }
-body main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
+body main > pre { font-family: sans-serif; background: black; color:white; padding:15px; }
+body main > code { font-family: sans-serif; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
 body main > code comment { color:#777}
 body main > p.quote { padding: 30px;font-size: 20px;font-style: italic; max-width: 400px }
 body main > ul.jump { columns:1; line-height: 20px}
@@ -67,7 +67,7 @@ body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetic
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 body select { color: black; margin-bottom: 20px }
 
-body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 50px; max-width: 600px }
+body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 50px; max-width: 650px }
 body footer p { padding-bottom: 5px }
 body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; margin-bottom: 10px;}
 body footer form *:first-child { padding-left:15px}
@@ -82,12 +82,11 @@ border-bottom: 1.5px solid black;
 margin-bottom: 20px;
 padding-bottom: 5px;
 padding-top:10px;
-font-size: 12px;
-font-family: monospace;
+font-size: 25px;
+font-family: sans-serif;
 }
 .top-menu a{
   
-text-decoration: underline;
 }
 @media (max-width: 900px) {
   body { padding: 30px}
@@ -112,3 +111,5 @@ text-decoration: underline;
 
 
 }
+
+a{text-decoration: underline;}

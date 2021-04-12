@@ -10,7 +10,7 @@ body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 
 body header a#logo img { width:100%}
 body main img.capsule { width: 150px}
 body main img.medium {max-width: 300px;}
-body main > * { max-width: 650px; margin-bottom: 20px }
+body main > * { margin-bottom: 20px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px}
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; font-weight: bold;}
 body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
@@ -67,7 +67,7 @@ body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetic
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 body select { color: black; margin-bottom: 20px }
 
-body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 50px; max-width: 650px }
+body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 50px;}
 body footer p { padding-bottom: 5px }
 body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; margin-bottom: 10px;}
 body footer form *:first-child { padding-left:15px}
@@ -84,9 +84,6 @@ padding-bottom: 5px;
 padding-top:10px;
 font-size: 25px;
 font-family: sans-serif;
-}
-.top-menu a{
-  
 }
 @media (max-width: 900px) {
   body { padding: 30px}
@@ -111,5 +108,12 @@ font-family: sans-serif;
 
 
 }
+.top-menu, body main > *, body footer {
+  
+max-width: 650px;
+}
 
-a{text-decoration: underline;}
+a{text-decoration: underline; curson:pointer}
+.no-transform{
+  text-transform: none !important;
+  }

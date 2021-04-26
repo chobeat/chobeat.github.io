@@ -11,7 +11,7 @@ body header a#logo img { width:100%}
 body main img.capsule { width: 150px}
 body main img.medium {max-width: 300px;}
 body main > * { margin-bottom: 20px }
-body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px}
+body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize;}
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; font-weight: bold;}
 body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 body main > img { width:100%; max-width: 300px }
@@ -117,3 +117,9 @@ a{text-decoration: underline; curson:pointer}
 .no-transform{
   text-transform: none !important;
   }
+.name{
+  float:right;
+  
+      text-decoration: underline;
+  font-size:25px
+}

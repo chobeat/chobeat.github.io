@@ -30,7 +30,11 @@
 <body class="home">
     <header>
 
-        <a id="logo" href="index.html"><img alt="Simone's logo" src="logo.svg" height="125px" loading="lazy"></a>
+        <picture>
+            <source srcset="logo.svg" media="(prefers-color-scheme: light)" />
+            <source srcset="dark.svg" media="(prefers-color-scheme: dark)" />
+            <a href="index.html"><img height="120" width="120" src="logo.svg" /></a>
+        </picture>
         <div class="top-menu">
 
             <a href="tech.html">tech</a>

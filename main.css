@@ -419,6 +419,10 @@ body footer form *:last-child {
     color: white
   }
 
+  img#logo {
+    src: "dark.svg";
+  }
+
   body footer {
     border-top: solid white
   }

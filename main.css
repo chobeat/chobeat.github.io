@@ -491,7 +491,7 @@ body footer {
 
 a {
   text-decoration: underline;
-  curson: pointer
+  cursor: pointer
 }
 
 .no-transform {

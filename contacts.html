@@ -31,18 +31,24 @@
 
 <body class="home">
     <header>
-
-        <a href="index.html"><img alt="Simone's logo"  height="125px" src="logo.svg" loading="lazy"></a>
+        <a href="index.html">
+            <picture>
+                <source srcset="logo.svg" media="(prefers-color-scheme: light)" />
+                <source srcset="dark.svg" media="(prefers-color-scheme: dark)" />
+                <img height="120" width="120" src="logo.svg" />
+            </picture>
+        </a>
         <div class="top-menu">
-            <a href="skills.html">skills</a>
-            -
-            <a href="contacts.html">contacts</a>
-            -
-            <a href="https://github.com/chobeat/simone-robutti-cv/releases/latest">resume</a>
-            -
-            <a href="https://github.com/chobeat/personal">source</a>
 
-            <h1 class="name">simone robutti</h1>
+            <a href="tech.html">tech</a>
+            -
+
+            <a href="politics.html">politics</a>
+            -
+
+            <a href="contacts.html">contacts</a>
+
+            - simone robutti
         </div>
     </header>
     <main class="home">
@@ -53,8 +59,9 @@
         <ul class="col2">
             <li> <a href="mailto:simone.robutti@protonmail.com">Email</a></li>
             <li> <a href="https://t.me/SimoneRobutti">Telegram</a></li>
-        </ul>    <h2>
-            <div id="contacts">Profiles</div>
+        </ul>
+        <h2>
+            <div id="Profiles">Profiles</div>
         </h2>
         <ul class="col2">
             <li> <a href="https://www.linkedin.com/in/simonerobutti/">LinkedIn</a></li>
@@ -65,7 +72,7 @@
     </main>
 
     <footer>
-        <h3> © Copyright 2021 Simone Robutti
+        <h3> © Copyright 2024 Simone Robutti
         </h3>
     </footer>
 
